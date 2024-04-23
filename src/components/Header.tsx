@@ -7,7 +7,8 @@ export default function Header() {
   return (
     <header
       className={
-        "flex items-center justify-between pt-4 md:pt-6" + globalXPadding
+        "mb-[38px] flex items-center justify-between pt-4 md:pt-6" +
+        globalXPadding
       }
     >
       <Link href={"/"}>
