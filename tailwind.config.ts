@@ -116,6 +116,8 @@ const config: Config = {
       gray: "hsl(232, 10%, 56%)",
     },
     gradientColorStops: {
+      white: "hsl(0, 0%, 100%)",
+      "light-blue": "hsl(234, 100%, 97%)",
       purple: "hsl(237, 100%, 64%)",
       "purple-hover": "hsl(265, 71%, 78%)",
       orange: "hsl(13, 100%, 64%)",
