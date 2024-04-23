@@ -117,6 +117,7 @@ const config: Config = {
     },
     gradientColorStops: {
       purple: "hsl(237, 100%, 64%)",
+      "purple-hover": "hsl(265, 71%, 78%)",
       orange: "hsl(13, 100%, 64%)",
       "hot-pink": "hsl(322, 87%, 55%)",
     },
