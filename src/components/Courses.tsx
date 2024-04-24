@@ -43,9 +43,9 @@ const courses: Course[] = [
 
 export default function Courses() {
   return (
-    <section className="mb-20 grid grid-cols-1 gap-10 sm:grid-cols-2 md:grid-cols-3 justify-items-stretch">
-      <header className="rounded-[10px] bg-gradient-to-b from-orange to-hot-pink px-7 pb-8 pt-6">
-        <h2 className="text-heading-md-tall text-white">
+    <section className="mb-20 grid grid-cols-1 justify-items-stretch gap-10 sm:grid-cols-2 md:grid-cols-3">
+      <header className="rounded-[10px] bg-gradient-to-b from-orange to-hot-pink px-7 pb-8 pt-6 sm:pl-8 sm:pr-5 sm:pt-14 md:px-8 md:pt-16">
+        <h2 className="md:text-heading-lg text-heading-md-tall text-white">
           Check out our most popular courses!
         </h2>
       </header>
@@ -63,7 +63,7 @@ export default function Courses() {
 
 function Course({ title, description, imagePath }: Course) {
   return (
-    <div className="relative rounded-[10px] bg-white px-7 pb-8 pt-14 drop-shadow-[0_25px_50px_rgba(6,22,141,4.42%)]">
+    <div className="relative rounded-[10px] bg-white px-7 pb-8 pt-14 drop-shadow-[0_25px_50px_rgba(6,22,141,4.42%)] sm:pl-8 sm:pr-[22px] sm:pt-20 md:px-8 md:pb-10 md:pt-16">
       <Image
         src={imagePath}
         alt=""
