@@ -16,7 +16,7 @@ export default function Hero() {
         <ButtonOrLink>Get Started</ButtonOrLink>
       </section>
       <Image
-        src={"/assets/images/image-hero-mobile.png]"}
+        src={"/assets/images/image-hero-mobile.png"}
         alt="A person drinking coffee while looking at their laptop"
         width={327 * 2}
         height={301 * 2}
