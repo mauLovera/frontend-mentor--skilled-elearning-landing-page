@@ -126,7 +126,9 @@ const config: Config = {
     extend: {
       screens: {
         xl: "1441px",
-        md: "769px",
+        lg: "1180px",
+        md: "1060px",
+        sm: "767px"
       },
     },
   },

@@ -4,14 +4,16 @@ import { ButtonOrLink } from "./ButtonOrLink"
 
 export default function Footer() {
   return (
-    <footer
-      className={
-        "flex items-center justify-between bg-blue py-9 md:py-8" +
-        globalXPadding
-      }
-    >
-      <LogoIcon />
-      <ButtonOrLink intent={"footer"}>Get Started</ButtonOrLink>
+    <footer className={" flex-1 bg-blue py-9 md:py-8"}>
+      <div
+        className={
+          "mx-auto flex max-w-[1440px] items-center justify-between" +
+          globalXPadding
+        }
+      >
+        <LogoIcon />
+        <ButtonOrLink intent={"footer"}>Get Started</ButtonOrLink>
+      </div>
     </footer>
   )
 }

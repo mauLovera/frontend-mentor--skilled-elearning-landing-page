@@ -7,7 +7,7 @@ export default function Header() {
   return (
     <header
       className={
-        "mb-[38px] flex items-center justify-between pt-4 md:pt-6" +
+        "mb-[38px] flex items-center  justify-between pt-4 sm:mb-[99px] md:mb-[178px] md:pt-6" +
         globalXPadding
       }
     >
