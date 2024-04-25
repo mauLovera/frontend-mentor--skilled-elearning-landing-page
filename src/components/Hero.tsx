@@ -16,11 +16,11 @@ export default function Hero() {
         <ButtonOrLink>Get Started</ButtonOrLink>
       </section>
       <Image
-        src={"/assets/images/image-hero-mobile.svg"}
+        src={"/assets/images/image-hero-mobile.png]"}
         alt="A person drinking coffee while looking at their laptop"
         width={327 * 2}
         height={301 * 2}
-        className="shrink-0 self-center sm:m-0 sm:hidden"
+        className="shrink-0 self-center sm:m-0 sm:hidden w-[327px]"
         priority
       />
       <Image
