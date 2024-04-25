@@ -1,6 +1,6 @@
 import LogoIcon from "./icons/LogoIcon"
 import { ButtonOrLink } from "./ButtonOrLink"
-import { globalXPadding } from "@/app/page"
+import { globalXPadding } from "@/app/constants"
 
 export default function Footer() {
   return (
