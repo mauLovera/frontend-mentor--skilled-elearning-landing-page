@@ -12,8 +12,6 @@ export const metadata: Metadata = {
     "Our modern courses across a range of in-demand skills will give you the knowledge you need to live the life you want.",
 }
 
-export const globalXPadding = " px-4 sm:px-10 lg:px-[165px]"
-
 export default function RootLayout({
   children,
 }: Readonly<{

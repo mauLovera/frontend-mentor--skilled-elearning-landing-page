@@ -1,7 +1,8 @@
 import Link from "next/link"
-import { ButtonOrLink } from "./ButtonOrLink"
+
 import LogoIcon from "./icons/LogoIcon"
-import { globalXPadding } from "@/app/layout"
+import { ButtonOrLink } from "./ButtonOrLink"
+import { globalXPadding } from "@/app/page"
 
 export default function Header() {
   return (

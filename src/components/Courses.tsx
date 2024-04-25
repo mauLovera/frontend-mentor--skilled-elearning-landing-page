@@ -43,9 +43,9 @@ const courses: Course[] = [
 
 export default function Courses() {
   return (
-    <section className="mb-20 grid grid-cols-1 justify-items-stretch gap-y-10 gap-x-[10px] md:gap-x-[30px] sm:grid-cols-2 lg:grid-cols-3">
+    <section className="mb-20 grid grid-cols-1 justify-items-stretch gap-x-[10px] gap-y-10 sm:grid-cols-2 md:gap-x-[30px] lg:grid-cols-3">
       <header className="rounded-[10px] bg-gradient-to-b from-orange to-hot-pink px-7 py-8 sm:pl-8 sm:pr-5 sm:pt-14 md:px-8 md:pt-16">
-        <h2 className="md:text-heading-lg text-heading-md-tall text-white">
+        <h2 className="text-heading-md-tall text-white md:text-heading-lg">
           Check out our most popular courses!
         </h2>
       </header>
@@ -72,8 +72,8 @@ function Course({ title, description, imagePath }: Course) {
         className="absolute -top-[26px]"
         priority
       />
-      <h3 className="text-heading-base mb-[15px] text-blue">{title}</h3>
-      <p className="text-body-base mb-[25px] text-gray">{description}</p>
+      <h3 className="mb-[15px] text-heading-base text-blue">{title}</h3>
+      <p className="mb-[25px] text-body-base text-gray">{description}</p>
       <ButtonOrLink intent={"secondary"}>Get Started</ButtonOrLink>
     </div>
   )
