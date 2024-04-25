@@ -2,11 +2,9 @@ import Image from "next/image"
 
 import { ButtonOrLink } from "./ButtonOrLink"
 
-// i think we can make like a ghost div to mimic the dimensions of the image and then determine when to add breakpoints
-
 export default function Hero() {
   return (
-    <section className="mb-[66px] flex flex-col items-start gap-[46px] sm:gap-0 sm:mb-[210px] sm:flex-row sm:justify-between md:mb-[250px]">
+    <section className="mb-[66px] flex flex-col items-start gap-[46px] sm:mb-[210px] sm:flex-row sm:justify-between sm:gap-0 md:mb-[250px]">
       <section className="max-w-[457px] sm:max-w-[398px] md:max-w-[457px]">
         <h1 className="mb-[26px] text-heading-xl text-blue  sm:mb-[25px] md:mb-[29px] md:text-heading-2xl">
           Maximize skill, minimize budget
@@ -22,23 +20,23 @@ export default function Hero() {
         alt="A person drinking coffee while looking at their laptop"
         width={327}
         height={301}
-        className="self-center sm:m-0 sm:hidden shrink-0"
+        className="shrink-0 self-center sm:m-0 sm:hidden"
         priority
       />
       <Image
         src={"/assets/images/image-hero-tablet.png"}
         alt="A person drinking coffee while looking at their laptop"
-        width={343*2}
-        height={542*2}
-        className="absolute top-0 right-0 -z-10 self-center hidden w-[343px] sm:max-md:block shrink-0"
+        width={343 * 2}
+        height={542 * 2}
+        className="absolute right-0 top-0 -z-10 hidden w-[343px] shrink-0 self-center sm:max-md:block"
         priority
       />
       <Image
         src={"/assets/images/image-hero-desktop.png"}
         alt="A person drinking coffee while looking at their laptop"
-        width={1209*2}
-        height={1090*2}
-        className="absolute -top-[310px] -right-[553px] -z-10 self-center max-w-[1090px] min-w-[1090px] hidden md:block shrink-0"
+        width={1209 * 2}
+        height={1090 * 2}
+        className="absolute -right-[553px] -top-[310px] -z-10 hidden min-w-[1090px] max-w-[1090px] shrink-0 self-center md:block"
         priority
       />
     </section>

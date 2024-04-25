@@ -1,10 +1,10 @@
 import type { Metadata } from "next"
-
 import "./globals.css"
-import { sans } from "@/fonts"
+
 import Header from "@/components/Header"
 import Footer from "@/components/Footer"
-import Image from "next/image"
+import { sans } from "@/fonts"
+
 
 export const metadata: Metadata = {
   title: "Frontend Mentor | Skilled E-Learning Landing Page ",

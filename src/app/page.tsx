@@ -4,7 +4,7 @@ import { globalXPadding } from "./constants"
 
 export default function Home() {
   return (
-    <main className={"" + globalXPadding}>
+    <main className={globalXPadding}>
       <Hero />
       <Courses />
     </main>
