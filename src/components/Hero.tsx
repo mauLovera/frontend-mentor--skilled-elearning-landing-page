@@ -18,8 +18,8 @@ export default function Hero() {
       <Image
         src={"/assets/images/image-hero-mobile.svg"}
         alt="A person drinking coffee while looking at their laptop"
-        width={327}
-        height={301}
+        width={327 * 2}
+        height={301 * 2}
         className="shrink-0 self-center sm:m-0 sm:hidden"
         priority
       />
