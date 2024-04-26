@@ -6,10 +6,10 @@ export default function Hero() {
   return (
     <section className="mb-[66px] flex flex-col items-start gap-[46px] sm:mb-[210px] sm:flex-row sm:justify-between sm:gap-0 md:mb-[250px]">
       <section className="max-w-[457px]">
-        <h1 className="mb-[26px] text-heading-xl text-blue  sm:mb-[25px] md:mb-[29px] md:text-heading-2xl">
+        <h1 className="mb-[26px] text-heading-xl text-blue  sm:mb-[25px] sm:text-[48px] md:mb-[29px] md:text-heading-2xl">
           Maximize skill, minimize budget
         </h1>
-        <p className="mb-6 text-body-base text-gray md:text-body-lg">
+        <p className="mb-6 max-w-[370px] text-body-base text-gray md:text-body-lg">
           Our modern courses across a range of in-demand skills will give you
           the knowledge you need to live the life you want.
         </p>
@@ -20,7 +20,7 @@ export default function Hero() {
         alt="A person drinking coffee while looking at their laptop"
         width={327 * 2}
         height={301 * 2}
-        className="shrink-0 self-center sm:m-0 sm:hidden w-[327px]"
+        className="max-w-[327px] shrink-0 self-center sm:m-0 sm:hidden"
         priority
       />
       <Image
@@ -36,7 +36,7 @@ export default function Hero() {
         alt="A person drinking coffee while looking at their laptop"
         width={1209 * 2}
         height={1090 * 2}
-        className="absolute -right-[553px] -top-[310px] -z-10 hidden min-w-[1090px] max-w-[1090px] shrink-0 self-center md:block"
+        className="absolute -right-[553px] -top-[310px] -z-10 hidden min-w-[1090px] max-w-[1110px] shrink-0 self-center md:block"
         priority
       />
     </section>

@@ -128,7 +128,7 @@ const config: Config = {
         xl: "1441px",
         lg: "1180px",
         md: "1060px",
-        sm: "767px"
+        sm: "740px"
       },
     },
   },
