@@ -43,7 +43,7 @@ const courses: Course[] = [
 
 export default function Courses() {
   return (
-    <section className="mb-20 grid grid-cols-1 justify-items-stretch gap-x-[10px] gap-y-10 sm:grid-cols-2 sm:gap-y-20 md:gap-x-[30px] lg:grid-cols-3">
+    <section className="mb-[86px] grid grid-cols-1 justify-items-stretch gap-x-[10px] gap-y-10 sm:mb-[140px] sm:grid-cols-2 sm:gap-y-20 md:gap-x-[30px] lg:grid-cols-3">
       <header className="rounded-[10px] bg-gradient-to-b from-orange to-hot-pink px-7 py-8 sm:pl-8 sm:pr-5 sm:pt-14 md:px-8 md:pt-16">
         <h2 className="text-heading-md-tall text-white md:text-heading-lg">
           Check out our most popular courses!
