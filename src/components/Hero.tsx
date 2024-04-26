@@ -36,7 +36,7 @@ export default function Hero() {
         alt="A person drinking coffee while looking at their laptop"
         width={1209 * 2}
         height={1090 * 2}
-        className="absolute -right-[553px] -top-[310px] -z-10 hidden min-w-[1090px] max-w-[1110px] shrink-0 self-center md:block"
+        className="absolute -right-[553px] -top-[360px] -z-10 hidden min-w-[1090px] max-w-[1200px] shrink-0 self-center md:block"
         priority
       />
     </section>
