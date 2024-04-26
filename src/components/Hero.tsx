@@ -5,11 +5,11 @@ import { ButtonOrLink } from "./ButtonOrLink"
 export default function Hero() {
   return (
     <section className="mb-[66px] flex flex-col items-start gap-[46px] sm:mb-[210px] sm:flex-row sm:justify-between sm:gap-0 md:mb-[250px]">
-      <section className="max-w-[457px]">
+      <section className="">
         <h1 className="mb-[26px] text-heading-xl text-blue  sm:mb-[25px] sm:text-[48px] md:mb-[29px] md:text-heading-2xl">
-          Maximize skill, minimize budget
+          Maximize skill, <br /> minimize budget
         </h1>
-        <p className="mb-6 max-w-[370px] text-body-base text-gray md:text-body-lg">
+        <p className="mb-6 max-w-[425px] text-body-base text-gray md:text-body-lg">
           Our modern courses across a range of in-demand skills will give you
           the knowledge you need to live the life you want.
         </p>
