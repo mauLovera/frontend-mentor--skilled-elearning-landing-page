@@ -22,16 +22,16 @@ const courses: Course[] = [
     imagePath: "/assets/icons/icon-design.svg",
   },
   {
-    title: "Crypto",
-    description:
-      "All you need to know to get started investing in crypto. Go from beginner to advanced with this 54 hour course.",
-    imagePath: "/assets/icons/icon-crypto.svg",
-  },
-  {
     title: "Photography",
     description:
       "Explore critical fundamentals like lighting, composition, and focus to capture exceptional photos.",
     imagePath: "/assets/icons/icon-photography.svg",
+  },
+  {
+    title: "Crypto",
+    description:
+      "All you need to know to get started investing in crypto. Go from beginner to advanced with this 54 hour course.",
+    imagePath: "/assets/icons/icon-crypto.svg",
   },
   {
     title: "Business",
@@ -43,7 +43,7 @@ const courses: Course[] = [
 
 export default function Courses() {
   return (
-    <section className="mb-20 grid grid-cols-1 justify-items-stretch gap-x-[10px] gap-y-10 sm:grid-cols-2 md:gap-x-[30px] lg:grid-cols-3">
+    <section className="mb-20 grid grid-cols-1 justify-items-stretch gap-x-[10px] gap-y-10 sm:grid-cols-2 md:gap-x-[30px] md:gap-y-20 lg:grid-cols-3">
       <header className="rounded-[10px] bg-gradient-to-b from-orange to-hot-pink px-7 py-8 sm:pl-8 sm:pr-5 sm:pt-14 md:px-8 md:pt-16">
         <h2 className="text-heading-md-tall text-white md:text-heading-lg">
           Check out our most popular courses!
@@ -63,7 +63,7 @@ export default function Courses() {
 
 function Course({ title, description, imagePath }: Course) {
   return (
-    <div className="relative rounded-[10px] bg-white px-7 pb-8 pt-14 drop-shadow-[0_25px_50px_rgba(6,22,141,4.42%)] sm:pl-8 sm:pr-[22px] sm:pt-20 md:px-8 md:pb-10 md:pt-16">
+    <div className="relative rounded-[10px] bg-white px-7 pb-8 pt-14 drop-shadow-[0_25px_50px_rgba(6,22,141,4.42%)] sm:pl-8 sm:pr-[22px] sm:pt-20 md:px-8 md:pb-10 md:pt-16 flex flex-col justify-between">
       <Image
         src={imagePath}
         alt=""
@@ -72,8 +72,12 @@ function Course({ title, description, imagePath }: Course) {
         className="absolute -top-[26px]"
         priority
       />
-      <h3 className="mb-[15px] text-heading-base text-blue">{title}</h3>
-      <p className="mb-[25px] text-body-base text-gray">{description}</p>
+      <div>
+        <h3 className="mb-[15px] text-heading-base text-blue">{title}</h3>
+        <p className="mb-[25px] text-body-base text-gray md:text-body-lg">
+          {description}
+        </p>
+      </div>
       <ButtonOrLink intent={"secondary"}>Get Started</ButtonOrLink>
     </div>
   )
